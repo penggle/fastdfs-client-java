@@ -3,30 +3,13 @@
 
 FastDFS Java Client API may be copied only under the terms of the BSD license.
 
-## 使用ant从源码构建
-
-```
-ant clean package
-```
-
-## 使用maven从源码安装
-
-```
-mvn clean install
-```
-
-## 使用maven从jar文件安装
-```
-mvn install:install-file -DgroupId=org.csource -DartifactId=fastdfs-client-java -Dversion=${version} -Dpackaging=jar -Dfile=fastdfs-client-java-${version}.jar
-```
-
-## 在您的maven项目pom.xml中添加依赖
+## 已经将该客户端发布到maven中央库了，在您的maven项目pom.xml中添加依赖
 
 ```xml
 <dependency>
-    <groupId>org.csource</groupId>
+    <groupId>com.github.penggle</groupId>
     <artifactId>fastdfs-client-java</artifactId>
-    <version>1.27-SNAPSHOT</version>
+    <version>1.27</version>
 </dependency>
 ```
 
